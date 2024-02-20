@@ -7,7 +7,7 @@
 
 pyvav语法
 
-cprint函数:
+#cprint函数:
 
 
   用于打印示例cprint hello world!
@@ -15,7 +15,7 @@ cprint函数:
                     ^
                     |这里有空格
 
-变量赋值:
+#变量赋值:
 
 
   pyvav的数据类型有两个str,int。使用方法：
@@ -49,7 +49,7 @@ cprint函数:
 
     
 
-计算
+#计算
 
 
   add 加法
@@ -107,23 +107,23 @@ cprint函数:
 
       
 
-执行时间:在代码开头加上@time,结尾加@stop
+#执行时间:在代码开头加上@time,结尾加@stop
 
 
 
   
 
-exit:用于终止程序
+#exit:用于终止程序
 
   
 
 
 
-osname:系统名称,使用python os创造
+#osname:系统名称,使用python os创造
 
   
 
-注释
+#注释
 
 
   在注释开头加'!'
@@ -143,16 +143,16 @@ osname:系统名称,使用python os创造
 
 
     
-ntime:now time
+#ntime:now time
 
 
 
   
-gy():关于
+#gy():关于
 
 
 
-input: <--新增的函数,类型为str
+#input: <--新增的函数,类型为str
 
 
 input[提示,要储存到的变量]
