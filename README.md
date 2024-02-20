@@ -186,7 +186,7 @@ input[提示,要储存到的变量]
 
               cbl[name] = 'xinhaitianze.';
               cbl[age] = ' 12 ';
-              bprint My name is;
+              bprint My name is ;
               cprint cbl[name];
               bprint I'm;
               bprint cbl[age];
@@ -197,7 +197,7 @@ input[提示,要储存到的变量]
 输出：
 
 
-              My name isxinhaitianze.
+              My name is xinhaitianze.
               I'm 12 years old.
 
 
