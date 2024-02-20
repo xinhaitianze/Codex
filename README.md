@@ -182,6 +182,8 @@ input[提示,要储存到的变量]
 
 
 例:
+
+
               cbl[name] = 'xinhaitianze.';
               cbl[age] = ' 12 ';
               bprint My name is;
