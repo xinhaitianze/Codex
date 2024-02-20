@@ -102,24 +102,19 @@ cprint函数:
 
       
 
-执行时间
+执行时间:在代码开头加上@time,结尾加@stop
 
 
-  在代码开头加上@time,结尾加@stop
-
-  
-
-exit
-
-
-  :用于终止程序
 
   
 
-osname
+exit:用于终止程序
+
+  
 
 
-  :系统名称,使用python os创造
+
+osname:系统名称,使用python os创造
 
   
 
@@ -140,16 +135,14 @@ osname
     
     cprint cbl[h]
 
+
+
     
-ntime
+ntime:now time
 
 
-  :now time
 
   
-gy()
-
-
-  :关于
+gy():关于
 
   
