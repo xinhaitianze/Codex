@@ -12,8 +12,8 @@ cprint函数:
 
   用于打印示例cprint hello world!
   
-                   ^
-                   |这里有空格
+                    ^
+                    |这里有空格
 
 变量赋值:
 
