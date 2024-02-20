@@ -182,21 +182,21 @@ input[提示,要储存到的变量]
 
 
 例:
-        cbl[name] = 'xinhaitianze.';
-        cbl[age] = ' 12 ';
-        bprint My name is;
-        cprint cbl[name];
-        bprint I'm;
-        bprint cbl[age];
-        bprint years old.;
-        ！代码说明：在pyvav代码中结尾加；，是合法的，这是因为bprint,cprint打印时有可能有空格在结尾如cprint hello ;加；是为了代码可读性。
+              cbl[name] = 'xinhaitianze.';
+              cbl[age] = ' 12 ';
+              bprint My name is;
+              cprint cbl[name];
+              bprint I'm;
+              bprint cbl[age];
+              bprint years old.;
+              ！代码说明：在pyvav代码中结尾加；，是合法的，这是因为bprint,cprint打印时有可能有空格在结尾如cprint hello ;加；是为了代码可读性。
 
     
 输出：
 
 
-        My name isxinhaitianze
-        I'm 12 years old.
+              My name isxinhaitianze
+              I'm 12 years old.
 
 
 
