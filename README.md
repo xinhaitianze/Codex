@@ -1,14 +1,19 @@
 # pyvav
 一个由python构建的简单解释器
 
+
 .vav是pyvav的文件,打开编码utf-8
+
+
 pyvav语法
 
 cprint函数:
 
 
   用于打印示例cprint hello world!
+  
                    ^
+                   
                    |这里有空格
 
 变量赋值:
