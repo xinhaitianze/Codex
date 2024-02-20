@@ -197,7 +197,7 @@ input[提示,要储存到的变量]
 输出：
 
 
-              My name isxinhaitianze
+              My name isxinhaitianze.
               I'm 12 years old.
 
 
