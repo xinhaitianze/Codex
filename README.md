@@ -151,10 +151,10 @@ gy():关于
 input: <--新增的函数,类型为str
 
 
-        input[提示,要储存到的变量]
+input[提示,要储存到的变量]
 
         
-        例:
+例:
 
         
             input[>>>|,a]
@@ -163,7 +163,7 @@ input: <--新增的函数,类型为str
             cprint cbl[a]
 
             
-            输入:hello world
+输入:hello world
 
             
-            输出:hello world
+输出:hello world
