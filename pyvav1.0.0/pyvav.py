@@ -424,6 +424,16 @@ for line in code.splitlines():
         time1()
     elif 'exit' in line:
         break
+    elif 'input[' in line:
+        line  = line[6:]
+        line = line.replace(']', '')
+        numbers = line.split(',')
+        n1 = numbers[0]
+        n2 = numbers[1]
+        print(n1,end="",flush=True)
+        # 从标准输入读取一行
+        user_input = sys.stdin.readline().strip()
+        variable[n2] = user_input
     else:
         if line == '':
             pass
