@@ -112,14 +112,14 @@ cprint函数:
 exit
 
 
-  用于终止程序
+  :用于终止程序
 
   
 
 osname
 
 
-  系统名称,使用python os创造
+  :系统名称,使用python os创造
 
   
 
@@ -144,12 +144,12 @@ osname
 ntime
 
 
-  now time
+  :now time
 
   
 gy()
 
 
-  关于
+  :关于
 
   
