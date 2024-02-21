@@ -2,7 +2,12 @@
 一个由python构建的简单解释器,在这里的描述是最Codex的新版本
 
 
-.vav是pyvav的文件,打开编码utf-8
+2024.2.21 pyvav正式改为Codex
+
+
+
+
+.vav是Codex的文件,打开编码utf-8
 
 
 Codex语法
