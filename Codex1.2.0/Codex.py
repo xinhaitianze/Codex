@@ -7,8 +7,10 @@ import re
 import pygame
 import os
 
+#读取cv.vav的文件内容
 with open('cs.vav', 'r', encoding='utf-8') as fi:
     fi = fi.read()
+    #解释器的代码要放到code这个变量里
     code = fi
 
 # code = input('>>>|')
