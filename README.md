@@ -5,7 +5,7 @@
 2024.2.21 pyvav 正式改为 Codex
 
 
-.vav是pyvav的文件,打开编码utf-8
+.vav是Codex的文件,打开编码utf-8
 
 
 Codex语法
