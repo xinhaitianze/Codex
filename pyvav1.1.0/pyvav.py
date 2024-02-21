@@ -423,7 +423,7 @@ for line in code.splitlines():
     elif 'osname' in line:
         cprint(os.name)
     elif 'gy()' in line:
-        cprint('pyvav1.0.0\n2022~2024\n开发者:新海田沢','blue')
+        cprint('pyvav1.1.0\n2022~2024\n开发者:新海田沢','blue')
     elif '@time' in line:
         kaishi()
     elif '@stop' in line:
