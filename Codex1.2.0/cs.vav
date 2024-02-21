@@ -1,0 +1,23 @@
+@time
+!变量赋值
+int[a] = 1
+int[b] = 1
+int[c] = 2
+!加
+add int[a],int[b]
+!减
+sub int[c],int[a]
+!乘
+mul int[c],int[c]
+!除
+div int[b],int[c]
+!打印
+cprint hello world
+!赋值后打印
+cbl[d] = '你好世界'
+cprint cbl[d]
+!关于pyvav
+gy()
+
+cprint 执行时间:
+@stop
