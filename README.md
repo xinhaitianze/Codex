@@ -205,6 +205,8 @@ input[提示,要储存到的变量]
 
 
 例:
+
+
               js[1+1,nam]
               cprint int[nam]
               输出:2
