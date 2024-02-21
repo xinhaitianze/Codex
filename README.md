@@ -1,11 +1,11 @@
-# pyvav
-一个由python构建的简单解释器,在这里的描述是最新版本pyvav的
+# Codex
+一个由python构建的简单解释器,在这里的描述是最Codex的新版本
 
 
 .vav是pyvav的文件,打开编码utf-8
 
 
-pyvav语法
+Codex语法
 
 #cprint函数:
 
@@ -18,7 +18,7 @@ pyvav语法
 #变量赋值:
 
 
-  pyvav的数据类型有两个str,int。使用方法：
+  Codex的数据类型有两个str,int。使用方法：
 
   
   str:
@@ -191,7 +191,7 @@ input[提示,要储存到的变量]
               bprint I'm;
               bprint cbl[age];
               bprint years old.;
-              ！代码说明：在pyvav代码中结尾加；，是合法的，这是因为bprint,cprint打印时有可能有空格在结尾如cprint hello ;加；是为了代码可读性。
+              ！代码说明：在Codex代码中结尾加'；'，是合法的，这是因为bprint,cprint打印时有可能有空格在结尾如cprint hello ;加';'是为了代码可读性。
 
     
 输出：
@@ -201,4 +201,27 @@ input[提示,要储存到的变量]
               I'm 12 years old.
 
 
+#js[算式或数学判断,变量名]类型:int
 
+
+例:
+              js[1+1,nam]
+              cprint int[nam]
+              输出:2
+
+              js[1+1==2,nam1]
+              cprint int[name1]
+              输出:True
+
+              js[1*1>2,nam2]
+              cprint int[nam2]
+              输出:False
+
+              
+Codex的运算符: +加|-减|*乘|/除
+
+
+!= 不等于
+
+
+== 等于
