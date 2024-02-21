@@ -44,7 +44,7 @@ cprint int[nam2];
 
 !输入
 input[>>>|,input]
-cprint str[input]
+cprint cbl[input]
 
 
 cprint 执行时间:;
