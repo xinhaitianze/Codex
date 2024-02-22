@@ -73,7 +73,7 @@ Codex语法
   示例:
 
   
-      变量赋值
+      !变量赋值
 
       
       int[a] = 1
@@ -85,34 +85,34 @@ Codex语法
       int[c] = 2
 
       
-      加
+      !加
 
       
       add int[a],int[b],s
 
       
-      减
+      !减
 
       
       sub int[c],int[a],c
 
       
-      乘
+      !乘
 
       
       mul int[c],int[c],v
 
       
-      除
+      !除
 
       
-      div int[b],int[c],b
+      div int[b],int[c],d
 
       
       cprint int[s]
       cprint int[c]
       cprint int[v]
-      cprint int[b]
+      cprint int[d]
       
 
 #执行时间:在代码开头加上@time,结尾加@stop
