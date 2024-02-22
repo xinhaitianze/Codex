@@ -1,6 +1,6 @@
 @time
 
-encoding|utf-8
+encoding|utf-8;
 !变量赋值
 int[a] = 1;
 int[b] = 1;
@@ -8,26 +8,32 @@ int[c] = 2;
 
 
 !加
-add int[a],int[b];
+add int[a],int[b],d;
 !减
-sub int[c],int[a];
+sub int[c],int[a],e;
 !乘
-mul int[c],int[c];
+mul int[c],int[c],f;
 !除
-div int[b],int[c];
+div int[b],int[c],j;
 
-int[a] = 1
+cprint int[d];
+cprint int[e];
+cprint int[f];
+cprint int[j];
 
-add 1,int[a]
-add int[a],1
-sub int[a],1
-sub 1,int[a]
-mul int[a],1
-mul 1,int[a]
-div int[a],1
-div 1,int[a]
-divz int[a],1
-divz 1,int[a]
+
+int[a] = 1;
+
+add 1,int[a];
+add int[a],1;
+sub int[a],1;
+sub 1,int[a];
+mul int[a],1;
+mul 1,int[a];
+div int[a],1;
+div 1,int[a];
+divz int[a],1;
+divz 1,int[a];
 
 !打印
 cprint hello world;
@@ -63,7 +69,7 @@ cprint cbl[input]
 cprint 执行时间:;
 @stop
 /k
-open|Codex.py,r
+open|Codex.py,r;
 /k
 
-input[a,a]
+input[a,a];
