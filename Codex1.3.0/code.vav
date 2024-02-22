@@ -1,0 +1,69 @@
+@time
+
+encoding|utf-8
+!变量赋值
+int[a] = 1;
+int[b] = 1;
+int[c] = 2;
+
+
+!加
+add int[a],int[b];
+!减
+sub int[c],int[a];
+!乘
+mul int[c],int[c];
+!除
+div int[b],int[c];
+
+int[a] = 1
+
+add 1,int[a]
+add int[a],1
+sub int[a],1
+sub 1,int[a]
+mul int[a],1
+mul 1,int[a]
+div int[a],1
+div 1,int[a]
+divz int[a],1
+divz 1,int[a]
+
+!打印
+cprint hello world;
+
+
+!赋值后打印
+cbl[d] = '你好世界';
+cprint cbl[d];
+
+
+!关于pyvav
+gy();
+
+!计算
+
+js[1+1,nam];
+cprint int[nam];
+!输出:2
+
+js[1+1==2,nam1];
+cprint int[nam1];
+!输出:True
+
+js[1*1>2,nam2];
+cprint int[nam2];
+!输出:False
+
+
+!输入
+input[>>>|,input]
+cprint cbl[input]
+
+cprint 执行时间:;
+@stop
+/k
+open|Codex.py,r
+/k
+
+input[a,a]
