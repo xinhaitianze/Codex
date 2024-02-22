@@ -88,26 +88,31 @@ Codex语法
       加
 
       
-      add int[a],int[b]
+      add int[a],int[b],s
 
       
       减
 
       
-      sub int[c],int[a]
+      sub int[c],int[a],c
 
       
       乘
 
       
-      mul int[c],int[c]
+      mul int[c],int[c],v
 
       
       除
 
       
-      div int[b],int[c]
+      div int[b],int[c],b
 
+      
+      cprint int[s]
+      cprint int[c]
+      cprint int[v]
+      cprint int[b]
       
 
 #执行时间:在代码开头加上@time,结尾加@stop
