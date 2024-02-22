@@ -8,9 +8,9 @@
 .vav是Codex的文件,打开编码utf-8
 
 
-Codex语法
+#Codex语法
 
-#cprint函数:
+<cprint函数:
 
 
   用于打印示例cprint hello world!
@@ -18,7 +18,7 @@ Codex语法
                     ^
                     |这里有空格
 
-#变量赋值:
+<变量赋值:
 
 
   Codex的数据类型有两个str,int。使用方法：
@@ -52,7 +52,7 @@ Codex语法
 
     
 
-#计算
+<计算
 
 
   add 加法
@@ -115,23 +115,23 @@ Codex语法
       cprint int[d]
       
 
-#执行时间:在代码开头加上@time,结尾加@stop
+<执行时间:在代码开头加上@time,结尾加@stop
 
 
 
   
 
-#exit:用于终止程序
+<exit:用于终止程序
 
   
 
 
 
-#osname:系统名称,使用python os创造
+<osname:系统名称,使用python os创造
 
   
 
-#注释
+<注释
 
 
   在注释开头加'!'
@@ -151,19 +151,19 @@ Codex语法
 
 
     
-#ntime:now time
+<ntime:now time
 
 
 
   
-#gy():关于
+<gy():关于
 
 
 
-#input: <--新增的函数,类型为str
+<input: <--新增的函数,类型为str
 
 
-input[提示,要储存到的变量]
+<input[提示,要储存到的变量]
 
         
 例:
@@ -186,7 +186,7 @@ input[提示,要储存到的变量]
 #bprint
 
 
-这个函数用法与cprint一样,但是标准输出,因此不会空行,用于解决cprint不能把str类型与str变量一起打印问题
+<这个函数用法与cprint一样,但是标准输出,因此不会空行,用于解决cprint不能把str类型与str变量一起打印问题
 
 
 例:
@@ -202,7 +202,7 @@ input[提示,要储存到的变量]
               ！代码说明：在Codex代码中结尾加'；'，是合法的，这是因为bprint,cprint打印时有可能有空格在结尾如cprint hello ;加';'是为了代码可读性。
 
     
-输出：
+<输出：
 
 
               My name is xinhaitianze.
@@ -231,13 +231,13 @@ input[提示,要储存到的变量]
 Codex的运算符: +加|-减|*乘|/除
 
 
-!= 不等于
+<!= 不等于
 
 
-== 等于
+<== 等于
 
 
-< 小于
+<< 小于
 
 
-> 大于
+<> 大于
