@@ -540,7 +540,7 @@ def codex(code):
             cprint(os.name)
         elif 'gy()' in line:
             h = h + 1
-            cprint('Codex1.4.0\n2022~2024\n开发者:新海田沢', 'blue')
+            cprint('Codex1.5.0\n2022~2024\n开发者:新海田沢', 'blue')
         elif '@time' in line:
             h = h + 1
             kaishi()
